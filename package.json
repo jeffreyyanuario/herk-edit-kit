@@ -19,14 +19,15 @@
     "test:media": "node scripts/smoke-media.mjs",
     "validate:short-form": "node .claude/skills/short-form-edit/scripts/validate-plan.mjs",
     "validate:footage": "node .claude/skills/short-form-edit/scripts/validate-footage.mjs",
-    "preflight:all": "node scripts/preflight-all.mjs"
+    "preflight:all": "node scripts/preflight-all.mjs",
+    "transcribe:local": "node scripts/transcribe-local.mjs"
   },
   "engines": {
     "node": ">=22"
   },
   "devDependencies": {
-    "hyperframes": "0.7.109",
     "gsap": "3.14.2",
+    "hyperframes": "0.7.109",
     "playwright": "^1.59.1"
   }
 }
